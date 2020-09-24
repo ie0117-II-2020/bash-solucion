@@ -9,7 +9,7 @@ fi
 
 if [ -f $1 ]
 then
-	>&1 echo "El archivo referenciado existe" #imprime error en stdout
+	>&1 echo "El archivo referenciado existe" #imprime mensaje en stdout
 else
 	>&2 echo "El archivo referenciado no existe" #imprime error en stderr
 	exit
